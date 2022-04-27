@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+body{
+  padding: 0%;
+  margin: 0%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+nav{
+  margin: 0;
+  padding: 30px;
+  background-color:rgb(46, 10, 46);
+  justify-content:center;
+  align-items: center;
+  color:azure;
+  text-decoration: none;
+  list-style-type: none;
+  display: grid;
+ grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  width: 100%;
+} 
+a{
+  color:azure;
+  text-decoration: none;
+  margin:10px;
+  font-size: 25px;
+  display: inline;
+}
+.btn-logout{
+  padding: 10px;
+  color:azure;
+  background-color: red;
+  cursor:pointer;
+  width:30%;
+}
+.navLink:hover{
+color:royalblue;
+}
+@media all and (max-width: 768px) {
+  nav{
+    width: 100%;
+  }
+  .btn-logout{
+width: 50%;
+  }
+}
